@@ -10,7 +10,8 @@ app = Flask(__name__)
 
 app.secret_key = 'super secret key'
 
-api_key = "a256aa72018b05d973f2193ac7a2c336"
+# go to openweathermap.org to recieve your API key!
+api_key = "paste your api weather key here"
 
 @app.route("/")
 def home():
